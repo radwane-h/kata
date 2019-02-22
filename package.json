@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "test": "jest --coverage",
+    "posttest": "cat ./coverage/lcov.info | coveralls"
+  },
+  "devDependencies": {
+    "jest": "^23.5.0",
+    "coveralls": "^3.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
